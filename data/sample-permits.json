@@ -1,0 +1,769 @@
+{
+ "comment": "SYNTHETIC SAMPLE DATA for local development and tests. These are not real permits. Field names follow the Miami-Dade County MDC.BuildingPermit layer.",
+ "objectIdFieldName": "OBJECTID",
+ "geometryType": "esriGeometryPoint",
+ "spatialReference": {
+  "wkid": 4326,
+  "latestWkid": 4326
+ },
+ "features": [
+  {
+   "attributes": {
+    "OBJECTID": 1,
+    "ID": "SAMPLE-0001",
+    "ADDRESS": "110 SAMPLE ST",
+    "FOLIO": "3000000000001",
+    "TYPE": "BLDG",
+    "DESC1": "ROOF REPLACEMENT",
+    "ISSUDATE": 1772427600000,
+    "RESCOMM": "R",
+    "STATUS": "ISSUED",
+    "ESTVALUE": 15000,
+    "CONTRNAME": "SAMPLE CONTRACTOR 2 LLC"
+   },
+   "geometry": {
+    "x": -80.190803,
+    "y": 25.7617
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 2,
+    "ID": "SAMPLE-0002",
+    "ADDRESS": "120 SAMPLE ST",
+    "FOLIO": "3000000000002",
+    "TYPE": "ELEC",
+    "DESC1": "SOLAR PANELS",
+    "ISSUDATE": 1779080400000,
+    "RESCOMM": "C",
+    "STATUS": "ISSUED",
+    "ESTVALUE": 8000,
+    "CONTRNAME": "SAMPLE CONTRACTOR 3 LLC"
+   },
+   "geometry": {
+    "x": -80.1918,
+    "y": 25.764395
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 3,
+    "ID": "SAMPLE-0003",
+    "ADDRESS": "130 SAMPLE ST",
+    "FOLIO": "3000000000003",
+    "TYPE": "PLUM",
+    "DESC1": "WATER HEATER",
+    "ISSUDATE": 1762146000000,
+    "RESCOMM": "R",
+    "STATUS": "ISSUED",
+    "ESTVALUE": 2500,
+    "CONTRNAME": "SAMPLE CONTRACTOR 4 LLC"
+   },
+   "geometry": {
+    "x": -80.1918,
+    "y": 25.779666
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 4,
+    "ID": "SAMPLE-0004",
+    "ADDRESS": "140 SAMPLE ST",
+    "FOLIO": "3000000000004",
+    "TYPE": "FIRE",
+    "DESC1": "SPRINKLER SYSTEM",
+    "ISSUDATE": 1743397200000,
+    "RESCOMM": "R",
+    "STATUS": "ISSUED",
+    "ESTVALUE": 2500,
+    "CONTRNAME": "SAMPLE CONTRACTOR 5 LLC"
+   },
+   "geometry": {
+    "x": -80.491394,
+    "y": 25.501248
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 5,
+    "ID": "SAMPLE-0005",
+    "ADDRESS": "150 SAMPLE ST",
+    "FOLIO": "3000000000005",
+    "TYPE": "FIRE",
+    "DESC1": "FIRE ALARM",
+    "ISSUDATE": 1738040400000,
+    "RESCOMM": "C",
+    "STATUS": "ISSUED",
+    "ESTVALUE": 8000,
+    "CONTRNAME": "SAMPLE CONTRACTOR 6 LLC"
+   },
+   "geometry": {
+    "x": -80.510648,
+    "y": 25.56633
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 6,
+    "ID": "SAMPLE-0006",
+    "ADDRESS": "160 SAMPLE ST",
+    "FOLIO": "3000000000006",
+    "TYPE": "BLDG",
+    "DESC1": "WINDOWS AND DOORS",
+    "ISSUDATE": 1749790800000,
+    "RESCOMM": "C",
+    "STATUS": "ISSUED",
+    "ESTVALUE": 15000,
+    "CONTRNAME": "SAMPLE CONTRACTOR 7 LLC"
+   },
+   "geometry": {
+    "x": -80.361332,
+    "y": 25.589095
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 7,
+    "ID": "SAMPLE-0007",
+    "ADDRESS": "170 SAMPLE ST",
+    "FOLIO": "3000000000007",
+    "TYPE": "MECH",
+    "DESC1": "A/C CHANGE OUT",
+    "ISSUDATE": 1744693200000,
+    "RESCOMM": "C",
+    "STATUS": "ISSUED",
+    "ESTVALUE": 2500,
+    "CONTRNAME": "SAMPLE CONTRACTOR 1 LLC"
+   },
+   "geometry": {
+    "x": -80.484699,
+    "y": 25.928607
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 8,
+    "ID": "SAMPLE-0008",
+    "ADDRESS": "180 SAMPLE ST",
+    "FOLIO": "3000000000008",
+    "TYPE": "MECH",
+    "DESC1": "DUCTWORK",
+    "ISSUDATE": 1739509200000,
+    "RESCOMM": "R",
+    "STATUS": "ISSUED",
+    "ESTVALUE": 42000,
+    "CONTRNAME": "SAMPLE CONTRACTOR 2 LLC"
+   },
+   "geometry": {
+    "x": -80.399229,
+    "y": 25.621978
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 9,
+    "ID": "SAMPLE-0009",
+    "ADDRESS": "190 SAMPLE ST",
+    "FOLIO": "3000000000009",
+    "TYPE": "FIRE",
+    "DESC1": "FIRE ALARM",
+    "ISSUDATE": 1767675600000,
+    "RESCOMM": "R",
+    "STATUS": "ISSUED",
+    "ESTVALUE": 2500,
+    "CONTRNAME": "SAMPLE CONTRACTOR 3 LLC"
+   },
+   "geometry": {
+    "x": -80.516904,
+    "y": 25.596589
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 10,
+    "ID": "SAMPLE-0010",
+    "ADDRESS": "200 SAMPLE ST",
+    "FOLIO": "3000000000010",
+    "TYPE": "BLDG",
+    "DESC1": "ROOF REPLACEMENT",
+    "ISSUDATE": 1756270800000,
+    "RESCOMM": "C",
+    "STATUS": "ISSUED",
+    "ESTVALUE": 15000,
+    "CONTRNAME": "SAMPLE CONTRACTOR 4 LLC"
+   },
+   "geometry": {
+    "x": -80.272269,
+    "y": 25.836534
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 11,
+    "ID": "SAMPLE-0011",
+    "ADDRESS": "210 SAMPLE ST",
+    "FOLIO": "3000000000011",
+    "TYPE": "ELEC",
+    "DESC1": "GENERATOR INSTALL",
+    "ISSUDATE": 1768453200000,
+    "RESCOMM": "R",
+    "STATUS": "ISSUED",
+    "ESTVALUE": 15000,
+    "CONTRNAME": "SAMPLE CONTRACTOR 5 LLC"
+   },
+   "geometry": {
+    "x": -80.359568,
+    "y": 25.867055
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 12,
+    "ID": "SAMPLE-0012",
+    "ADDRESS": "220 SAMPLE ST",
+    "FOLIO": "3000000000012",
+    "TYPE": "BLDG",
+    "DESC1": "NEW SINGLE FAMILY RESIDENCE",
+    "ISSUDATE": 1789534800000,
+    "RESCOMM": "R",
+    "STATUS": "ISSUED",
+    "ESTVALUE": 8000,
+    "CONTRNAME": "SAMPLE CONTRACTOR 6 LLC"
+   },
+   "geometry": {
+    "x": -80.255235,
+    "y": 25.791774
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 13,
+    "ID": "SAMPLE-0013",
+    "ADDRESS": "230 SAMPLE ST",
+    "FOLIO": "3000000000013",
+    "TYPE": "FIRE",
+    "DESC1": "SPRINKLER SYSTEM",
+    "ISSUDATE": 1755061200000,
+    "RESCOMM": "R",
+    "STATUS": "ISSUED",
+    "ESTVALUE": 8000,
+    "CONTRNAME": "SAMPLE CONTRACTOR 7 LLC"
+   },
+   "geometry": {
+    "x": -80.355851,
+    "y": 25.584974
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 14,
+    "ID": "SAMPLE-0014",
+    "ADDRESS": "240 SAMPLE ST",
+    "FOLIO": "3000000000014",
+    "TYPE": "PLUM",
+    "DESC1": "WATER HEATER",
+    "ISSUDATE": 1759381200000,
+    "RESCOMM": "R",
+    "STATUS": "ISSUED",
+    "ESTVALUE": 350000,
+    "CONTRNAME": "SAMPLE CONTRACTOR 1 LLC"
+   },
+   "geometry": {
+    "x": -80.204843,
+    "y": 25.852523
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 15,
+    "ID": "SAMPLE-0015",
+    "ADDRESS": "250 SAMPLE ST",
+    "FOLIO": "3000000000015",
+    "TYPE": "PLUM",
+    "DESC1": "REPIPE",
+    "ISSUDATE": 1770699600000,
+    "RESCOMM": "R",
+    "STATUS": "ISSUED",
+    "ESTVALUE": 15000,
+    "CONTRNAME": "SAMPLE CONTRACTOR 2 LLC"
+   },
+   "geometry": {
+    "x": -80.181926,
+    "y": 25.607339
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 16,
+    "ID": "SAMPLE-0016",
+    "ADDRESS": "260 SAMPLE ST",
+    "FOLIO": "3000000000016",
+    "TYPE": "FIRE",
+    "DESC1": "SPRINKLER SYSTEM",
+    "ISSUDATE": 1758949200000,
+    "RESCOMM": "C",
+    "STATUS": "ISSUED",
+    "ESTVALUE": 15000,
+    "CONTRNAME": "SAMPLE CONTRACTOR 3 LLC"
+   },
+   "geometry": {
+    "x": -80.491355,
+    "y": 25.822494
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 17,
+    "ID": "SAMPLE-0017",
+    "ADDRESS": "270 SAMPLE ST",
+    "FOLIO": "3000000000017",
+    "TYPE": "FIRE",
+    "DESC1": "FIRE ALARM",
+    "ISSUDATE": 1779339600000,
+    "RESCOMM": "R",
+    "STATUS": "ISSUED",
+    "ESTVALUE": 2500,
+    "CONTRNAME": "SAMPLE CONTRACTOR 4 LLC"
+   },
+   "geometry": {
+    "x": -80.457885,
+    "y": 25.948769
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 18,
+    "ID": "SAMPLE-0018",
+    "ADDRESS": "280 SAMPLE ST",
+    "FOLIO": "3000000000018",
+    "TYPE": "PLUM",
+    "DESC1": "WATER HEATER",
+    "ISSUDATE": 1788411600000,
+    "RESCOMM": "C",
+    "STATUS": "ISSUED",
+    "ESTVALUE": 42000,
+    "CONTRNAME": "SAMPLE CONTRACTOR 5 LLC"
+   },
+   "geometry": {
+    "x": -80.485807,
+    "y": 25.529991
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 19,
+    "ID": "SAMPLE-0019",
+    "ADDRESS": "290 SAMPLE ST",
+    "FOLIO": "3000000000019",
+    "TYPE": "MECH",
+    "DESC1": "A/C CHANGE OUT",
+    "ISSUDATE": 1784610000000,
+    "RESCOMM": "R",
+    "STATUS": "ISSUED",
+    "ESTVALUE": 350000,
+    "CONTRNAME": "SAMPLE CONTRACTOR 6 LLC"
+   },
+   "geometry": {
+    "x": -80.299727,
+    "y": 25.684025
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 20,
+    "ID": "SAMPLE-0020",
+    "ADDRESS": "300 SAMPLE ST",
+    "FOLIO": "3000000000020",
+    "TYPE": "MECH",
+    "DESC1": "DUCTWORK",
+    "ISSUDATE": 1745557200000,
+    "RESCOMM": "C",
+    "STATUS": "ISSUED",
+    "ESTVALUE": 8000,
+    "CONTRNAME": "SAMPLE CONTRACTOR 7 LLC"
+   },
+   "geometry": {
+    "x": -80.234631,
+    "y": 25.834299
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 21,
+    "ID": "SAMPLE-0021",
+    "ADDRESS": "310 SAMPLE ST",
+    "FOLIO": "3000000000021",
+    "TYPE": "MECH",
+    "DESC1": "A/C CHANGE OUT",
+    "ISSUDATE": 1779944400000,
+    "RESCOMM": "R",
+    "STATUS": "ISSUED",
+    "ESTVALUE": 15000,
+    "CONTRNAME": "SAMPLE CONTRACTOR 1 LLC"
+   },
+   "geometry": {
+    "x": -80.359436,
+    "y": 25.926908
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 22,
+    "ID": "SAMPLE-0022",
+    "ADDRESS": "320 SAMPLE ST",
+    "FOLIO": "3000000000022",
+    "TYPE": "ELEC",
+    "DESC1": "GENERATOR INSTALL",
+    "ISSUDATE": 1749186000000,
+    "RESCOMM": "R",
+    "STATUS": "ISSUED",
+    "ESTVALUE": 350000,
+    "CONTRNAME": "SAMPLE CONTRACTOR 2 LLC"
+   },
+   "geometry": {
+    "x": -80.196499,
+    "y": 25.703831
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 23,
+    "ID": "SAMPLE-0023",
+    "ADDRESS": "330 SAMPLE ST",
+    "FOLIO": "3000000000023",
+    "TYPE": "BLDG",
+    "DESC1": "INTERIOR ALTERATION",
+    "ISSUDATE": 1788670800000,
+    "RESCOMM": "C",
+    "STATUS": "ISSUED",
+    "ESTVALUE": 2500,
+    "CONTRNAME": "SAMPLE CONTRACTOR 3 LLC"
+   },
+   "geometry": {
+    "x": -80.14953,
+    "y": 25.911217
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 24,
+    "ID": "SAMPLE-0024",
+    "ADDRESS": "340 SAMPLE ST",
+    "FOLIO": "3000000000024",
+    "TYPE": "MECH",
+    "DESC1": "A/C CHANGE OUT",
+    "ISSUDATE": 1756875600000,
+    "RESCOMM": "R",
+    "STATUS": "ISSUED",
+    "ESTVALUE": 350000,
+    "CONTRNAME": "SAMPLE CONTRACTOR 4 LLC"
+   },
+   "geometry": {
+    "x": -80.503016,
+    "y": 25.63149
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 25,
+    "ID": "SAMPLE-0025",
+    "ADDRESS": "350 SAMPLE ST",
+    "FOLIO": "3000000000025",
+    "TYPE": "PLUM",
+    "DESC1": "WATER HEATER",
+    "ISSUDATE": 1741755600000,
+    "RESCOMM": "R",
+    "STATUS": "ISSUED",
+    "ESTVALUE": 42000,
+    "CONTRNAME": "SAMPLE CONTRACTOR 5 LLC"
+   },
+   "geometry": {
+    "x": -80.152281,
+    "y": 25.492827
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 26,
+    "ID": "SAMPLE-0026",
+    "ADDRESS": "360 SAMPLE ST",
+    "FOLIO": "3000000000026",
+    "TYPE": "FIRE",
+    "DESC1": "SPRINKLER SYSTEM",
+    "ISSUDATE": 1789362000000,
+    "RESCOMM": "R",
+    "STATUS": "ISSUED",
+    "ESTVALUE": 350000,
+    "CONTRNAME": "SAMPLE CONTRACTOR 6 LLC"
+   },
+   "geometry": {
+    "x": -80.152324,
+    "y": 25.532563
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 27,
+    "ID": "SAMPLE-0027",
+    "ADDRESS": "370 SAMPLE ST",
+    "FOLIO": "3000000000027",
+    "TYPE": "MECH",
+    "DESC1": "DUCTWORK",
+    "ISSUDATE": 1770958800000,
+    "RESCOMM": "C",
+    "STATUS": "ISSUED",
+    "ESTVALUE": 350000,
+    "CONTRNAME": "SAMPLE CONTRACTOR 7 LLC"
+   },
+   "geometry": {
+    "x": -80.232789,
+    "y": 25.794934
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 28,
+    "ID": "SAMPLE-0028",
+    "ADDRESS": "380 SAMPLE ST",
+    "FOLIO": "3000000000028",
+    "TYPE": "BLDG",
+    "DESC1": "ROOF REPLACEMENT",
+    "ISSUDATE": 1765602000000,
+    "RESCOMM": "R",
+    "STATUS": "ISSUED",
+    "ESTVALUE": 350000,
+    "CONTRNAME": "SAMPLE CONTRACTOR 1 LLC"
+   },
+   "geometry": {
+    "x": -80.360376,
+    "y": 25.573953
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 29,
+    "ID": "SAMPLE-0029",
+    "ADDRESS": "390 SAMPLE ST",
+    "FOLIO": "3000000000029",
+    "TYPE": "BLDG",
+    "DESC1": "ROOF REPLACEMENT",
+    "ISSUDATE": 1755925200000,
+    "RESCOMM": "R",
+    "STATUS": "ISSUED",
+    "ESTVALUE": 15000,
+    "CONTRNAME": "SAMPLE CONTRACTOR 2 LLC"
+   },
+   "geometry": {
+    "x": -80.457509,
+    "y": 25.485497
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 30,
+    "ID": "SAMPLE-0030",
+    "ADDRESS": "400 SAMPLE ST",
+    "FOLIO": "3000000000030",
+    "TYPE": "PLUM",
+    "DESC1": "WATER HEATER",
+    "ISSUDATE": 1754629200000,
+    "RESCOMM": "C",
+    "STATUS": "ISSUED",
+    "ESTVALUE": 8000,
+    "CONTRNAME": "SAMPLE CONTRACTOR 3 LLC"
+   },
+   "geometry": {
+    "x": -80.52024,
+    "y": 25.569002
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 31,
+    "ID": "SAMPLE-0031",
+    "ADDRESS": "410 SAMPLE ST",
+    "FOLIO": "3000000000031",
+    "TYPE": "ELEC",
+    "DESC1": "SERVICE UPGRADE",
+    "ISSUDATE": 1744002000000,
+    "RESCOMM": "C",
+    "STATUS": "ISSUED",
+    "ESTVALUE": 15000,
+    "CONTRNAME": "SAMPLE CONTRACTOR 4 LLC"
+   },
+   "geometry": {
+    "x": -80.22046,
+    "y": 25.853748
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 32,
+    "ID": "SAMPLE-0032",
+    "ADDRESS": "420 SAMPLE ST",
+    "FOLIO": "3000000000032",
+    "TYPE": "BLDG",
+    "DESC1": "ROOF REPLACEMENT",
+    "ISSUDATE": 1744347600000,
+    "RESCOMM": "C",
+    "STATUS": "ISSUED",
+    "ESTVALUE": 15000,
+    "CONTRNAME": "SAMPLE CONTRACTOR 5 LLC"
+   },
+   "geometry": {
+    "x": -80.372097,
+    "y": 25.683512
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 33,
+    "ID": "SAMPLE-0033",
+    "ADDRESS": "430 SAMPLE ST",
+    "FOLIO": "3000000000033",
+    "TYPE": "ELEC",
+    "DESC1": "SOLAR PANELS",
+    "ISSUDATE": 1752469200000,
+    "RESCOMM": "C",
+    "STATUS": "ISSUED",
+    "ESTVALUE": 8000,
+    "CONTRNAME": "SAMPLE CONTRACTOR 6 LLC"
+   },
+   "geometry": {
+    "x": -80.213751,
+    "y": 25.504635
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 34,
+    "ID": "SAMPLE-0034",
+    "ADDRESS": "440 SAMPLE ST",
+    "FOLIO": "3000000000034",
+    "TYPE": "ELEC",
+    "DESC1": "GENERATOR INSTALL",
+    "ISSUDATE": 1742360400000,
+    "RESCOMM": "R",
+    "STATUS": "ISSUED",
+    "ESTVALUE": 2500,
+    "CONTRNAME": "SAMPLE CONTRACTOR 7 LLC"
+   },
+   "geometry": {
+    "x": -80.37281,
+    "y": 25.589273
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 35,
+    "ID": "SAMPLE-0035",
+    "ADDRESS": "450 SAMPLE ST",
+    "FOLIO": "3000000000035",
+    "TYPE": "BLDG",
+    "DESC1": "NEW SINGLE FAMILY RESIDENCE",
+    "ISSUDATE": 1743915600000,
+    "RESCOMM": "R",
+    "STATUS": "ISSUED",
+    "ESTVALUE": 42000,
+    "CONTRNAME": "SAMPLE CONTRACTOR 1 LLC"
+   },
+   "geometry": {
+    "x": -80.276099,
+    "y": 25.720294
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 36,
+    "ID": "SAMPLE-0036",
+    "ADDRESS": "460 SAMPLE ST",
+    "FOLIO": "3000000000036",
+    "TYPE": "PLUM",
+    "DESC1": "WATER HEATER",
+    "ISSUDATE": 1740891600000,
+    "RESCOMM": "C",
+    "STATUS": "ISSUED",
+    "ESTVALUE": 2500,
+    "CONTRNAME": "SAMPLE CONTRACTOR 2 LLC"
+   },
+   "geometry": {
+    "x": -80.346031,
+    "y": 25.556874
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 37,
+    "ID": "SAMPLE-0037",
+    "ADDRESS": "470 SAMPLE ST",
+    "FOLIO": "3000000000037",
+    "TYPE": "PLUM",
+    "DESC1": "REPIPE",
+    "ISSUDATE": 1760936400000,
+    "RESCOMM": "C",
+    "STATUS": "ISSUED",
+    "ESTVALUE": 8000,
+    "CONTRNAME": "SAMPLE CONTRACTOR 3 LLC"
+   },
+   "geometry": {
+    "x": -80.13617,
+    "y": 25.582602
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 38,
+    "ID": "SAMPLE-0038",
+    "ADDRESS": "480 SAMPLE ST",
+    "FOLIO": "3000000000038",
+    "TYPE": "BLDG",
+    "DESC1": "ROOF REPLACEMENT",
+    "ISSUDATE": 1786942800000,
+    "RESCOMM": "C",
+    "STATUS": "ISSUED",
+    "ESTVALUE": 2500,
+    "CONTRNAME": "SAMPLE CONTRACTOR 4 LLC"
+   },
+   "geometry": {
+    "x": -80.470243,
+    "y": 25.55885
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 900,
+    "ID": "SAMPLE-0010",
+    "ADDRESS": "200 SAMPLE ST",
+    "FOLIO": "3000000000010",
+    "TYPE": "BLDG",
+    "DESC1": "ROOF REPLACEMENT",
+    "ISSUDATE": 1758862800000,
+    "RESCOMM": "C",
+    "STATUS": "FINAL",
+    "ESTVALUE": 15000,
+    "CONTRNAME": "SAMPLE CONTRACTOR 4 LLC"
+   },
+   "geometry": {
+    "x": -80.272269,
+    "y": 25.836534
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 901,
+    "ID": "SAMPLE-0901",
+    "ADDRESS": "9110 SAMPLE ST",
+    "FOLIO": "3000000000901",
+    "TYPE": "BLDG",
+    "DESC1": "WINDOWS AND DOORS",
+    "ISSUDATE": 1787374800000,
+    "RESCOMM": "R",
+    "STATUS": "ISSUED",
+    "ESTVALUE": 2500,
+    "CONTRNAME": "SAMPLE CONTRACTOR 6 LLC"
+   },
+   "geometry": null
+  }
+ ],
+ "exceededTransferLimit": false
+}

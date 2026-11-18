@@ -1,0 +1,29 @@
+# Sample requests (VS Code REST Client or Visual Studio .http files)
+@host = http://localhost:8080
+
+### Permits within 500 m of downtown Miami, nearest first
+GET {{host}}/api/permits/near?lat=25.7617&lon=-80.1918&radiusMeters=500
+
+### Electrical permits within 2 km issued in 2026
+GET {{host}}/api/permits/near?lat=25.7617&lon=-80.1918&radiusMeters=2000&type=ELEC&issuedFrom=2026-01-01
+
+### Permits inside a polygon (either ring orientation works)
+POST {{host}}/api/permits/within
+Content-Type: application/json
+
+{
+  "type": "Polygon",
+  "coordinates": [[[-80.2018, 25.7517], [-80.1818, 25.7517], [-80.1818, 25.7717], [-80.2018, 25.7717], [-80.2018, 25.7517]]]
+}
+
+### Counts and estimated value by permit type
+GET {{host}}/api/permits/stats?bbox=-80.6,25.4,-80.1,26.0
+
+### GeoJSON for a map
+GET {{host}}/api/permits/geojson?bbox=-80.25,25.70,-80.15,25.80
+
+### One permit
+GET {{host}}/api/permits/SAMPLE-0001
+
+### Health
+GET {{host}}/health

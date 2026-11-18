@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <RootNamespace>Permits.Api</RootNamespace>
+    <InvariantGlobalization>true</InvariantGlobalization>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer.NetTopologySuite" />
+    <PackageReference Include="NetTopologySuite.IO.GeoJSON4STJ" />
+    <PackageReference Include="Scalar.AspNetCore" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <InternalsVisibleTo Include="Permits.Api.Tests" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <!-- Schema ships inside the assembly so init-db works from any folder -->
+    <None Remove="Data\schema.sql" />
+    <EmbeddedResource Include="Data\schema.sql" LogicalName="Permits.Api.Data.schema.sql" />
+  </ItemGroup>
+
+</Project>
